@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Primal_Editor.GameProject
@@ -17,7 +18,7 @@ namespace Primal_Editor.GameProject
     /// <summary>
     /// OpenProjectView.xaml 的交互逻辑
     /// </summary>
-    public partial class OpenProjectView : Window
+    public partial class OpenProjectView : UserControl
     {
         public OpenProjectView()
         {
